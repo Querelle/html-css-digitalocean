@@ -9,6 +9,12 @@ section {
 .ms_h3 {
   margin: 8px 0;
 }
+.ms_button {
+  display: inline-block;
+  border: 0;
+  border-radius: 5px;
+  font-weight: 500;
+}
 
 /* navbar */
 .ms_navbar {
@@ -28,6 +34,12 @@ section {
   font-size: 20px;
   color: #2380f8;
 }
+.ms_btn-signup {
+  background-color: #FFF;
+  padding: 1px 15px;
+  border: 1px solid #1942f9;
+  color: #1942f9;
+}
 
 
 
@@ -44,6 +56,21 @@ section {
 .ms_form-title {
   margin-bottom: 20px;
 }
+.ms_access-wrapper .ms_button {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 5px 0;
+}
+.ms_btn-create {
+  background-color: #5596fa;
+  color: #FFF;
+}
+.ms_btn-google {
+  background-color: #FFF;
+  color: #626262;
+  box-shadow: 0 2px 2px 0 #ccc;
+}
+
 
 
 
@@ -51,6 +78,7 @@ section {
 /* partners */
 .ms_partners-sec {
   text-align: center;
+  background-color: #f3f5f9;
 }
 .ms_partner {
 
@@ -64,7 +92,17 @@ section {
   width: 100%;
 }
 
-
+/* deploy section */
+.ms_deploy-wrapper {
+  padding-left: 50px;
+}
+.ms_deploy-menu {
+  border-left: 2px solid lightgrey;
+  margin: 0;
+}
+.ms_deploy-menu li {
+  padding: 5px 15px;;
+}
 
 
 

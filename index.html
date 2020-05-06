@@ -11,27 +11,29 @@
   <body>
     <header>
       <!-- navbar -->
-      <nav class="container ms_navbar">
+      <section class="container ms_navbar">
         <div class="row">
-          <div class="col-sx-8 col-lg-4 ms_brand">
+          <div class="col-xs-8 col-lg-4 ms_brand">
             brand
           </div>
-          <div class="col-sx-2 col-lg-8 ms_hamburger">
+          <!-- navigation extended -->
+          <nav class="col-lg-8 visible-lg ms_nav-extended">
+            <div class="row">
+              <div class="col-lg-6 visible-lg ms_nav-products">
+                prodotti
+              </div>
+              <div class="col-lg-6 visible-lg ms_nav-quick-support">
+                accesso
+              </div>
+            </div>
+          </nav>
+          <!-- hamburger -->
+          <div class="col-xs-4 hidden-lg col-lg-8 ms_hamburger">
             hamburger
           </div>
         </div>
-
-
-      </nav>
+      </section>
     </header>
 
   </body>
 </html>
-
-
-<!-- <div class="col-lg-4 visible-lg ms_nav-products">
-  prodotti
-</div>
-<div class="col-lg-4 visible-lg ms_nav-quick-support">
-  accesso
-</div> -->

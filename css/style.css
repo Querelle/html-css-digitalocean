@@ -2,39 +2,82 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
-
-
+section {
+  padding: 30px 0;
+}
+.ms_h2,
+.ms_h3 {
+  margin: 8px 0;
+}
 
 /* navbar */
 .ms_navbar {
-  background-color: yellow;
-  border: 1px solid blue;
+  padding: 15px 15px;
 }
-.ms_nav-extended {
-  border: 1px solid red;
+.ms_nav-extended ul {
+  margin: 0;          /* reset margine alla lista per assegnare line-height */
 }
-.ms_brand {
-  background-color: coral;
+.ms_nav-extended ul li {
+  line-height: 32px;
 }
-.ms_nav-products {
-  background-color: lightblue;
+.ms_brand img {
+  width: 172px;
 }
-.ms_nav-quick-support {
-  background-color: black;
+.glyphicon-menu-hamburger {
+  line-height: 32px;
+  font-size: 20px;
+  color: #2380f8;
 }
-.ms_hamburger {
-  background-color: green;
-}
+
+
+
 
 /* welcome & quick access section */
 .ms_welcome-access {
-  background-color: #1942f9;
-  min-height: 200px;
+  background-image: url("../img/bg-header.jpg");
+}
+.ms_access-wrapper {
+  background-color: #FFF;
+  border-radius: 6px;
+  padding: 30px;
+}
+.ms_form-title {
+  margin-bottom: 20px;
 }
 
-.ms_welcome-text {
-  background-color: pink;
+
+
+
+/* partners */
+.ms_partners-sec {
+  text-align: center;
 }
-.ms_access-form {
-  background-color: red;
+.ms_partner {
+
+  width: 15%;
+}
+.ms_thumbnail {
+  width: 100%;
+  padding: 10px;
+}
+.ms_thumbnail img {
+  width: 100%;
+}
+
+
+
+
+
+@media screen and (max-width: 767px) {
+  .ms_xs_first-item,
+  .ms_xs_second-item {
+    width: 40%;
+  }
+
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .ms_xs_first-item,
+  .ms_xs_second-item {
+    width: 16%;
+  }
 }

@@ -1,0 +1,27 @@
+/* ELEMENTI */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+/* navbar */
+.ms_navbar {
+  background-color: yellow;
+  border: 1px solid blue;
+}
+.ms_navigation {
+  border: 1px solid red;
+}
+.ms_brand {
+  background-color: coral;
+}
+.ms_nav-products {
+  background-color: lightblue;
+}
+.ms_nav-quick-support {
+  background-color: black;
+}
+.ms_hamburger {
+  background-color: green;
+}

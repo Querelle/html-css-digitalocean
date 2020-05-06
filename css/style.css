@@ -25,3 +25,16 @@ body {
 .ms_hamburger {
   background-color: green;
 }
+
+/* welcome & quick access section */
+.ms_welcome-access {
+  background-color: #1942f9;
+  min-height: 200px;
+}
+
+.ms_welcome-text {
+  background-color: pink;
+}
+.ms_access-form {
+  background-color: red;
+}

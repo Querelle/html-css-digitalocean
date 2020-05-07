@@ -36,7 +36,9 @@ footer {
   border-radius: 5px;
   font-weight: 500;
 }
-
+.ms_highlited-section h2 {
+  color: #FFF;
+}
 
 /* navbar */
 .ms_navbar {
@@ -74,7 +76,6 @@ footer {
 }
 .ms_welcome-text h2 {
   font-size: 3.5em;
-  color: #FFF;
 }
 .ms_welcome-text p {
   font-size: 1.3em;
@@ -188,18 +189,23 @@ footer {
 /* global services */
 .ms_global-services {
   background: linear-gradient(#0048c5, #001e99);
-  color: #FFF;
 }
 .ms_global-services a {
   color: #00d7d2;
 }
-.ms_global-services .col-xs-12.col-md-5.col-md-offset-1 > .row {
+.ms_global-services .col-xs-12.col-md-6 > .row {
   border-bottom: 1px solid #FFF;
 }
 .ms_global-services span,
 .ms_global-services a {
   display: block;
   padding: 6px 20px;
+}
+.ms_col-sx {
+  padding-right: 30px
+}
+.ms_col-dx {
+  padding-left: 30px
 }
 
 
@@ -216,7 +222,14 @@ footer {
 
 
 /* FOOTER */
-
+footer .ms_h3 {
+  color: #FFF;
+}
+footer ul li {
+  margin: 0;
+  padding: 3px 0;
+  color: #a6adbd;
+}
 
 
 

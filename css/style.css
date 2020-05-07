@@ -19,6 +19,7 @@ img {
   font-weight: 500;
 }
 
+
 /* navbar */
 .ms_navbar {
   padding: 15px 15px;
@@ -43,9 +44,6 @@ img {
   border: 1px solid #1942f9;
   color: #1942f9;
 }
-
-
-
 
 /* welcome & quick access section */
 .ms_welcome-access {
@@ -75,16 +73,12 @@ img {
 }
 
 
-
-
-
 /* partners */
 .ms_partners-sec {
   text-align: center;
   background-color: #f3f5f9;
 }
 .ms_partner {
-
   width: 15%;
 }
 .ms_thumbnail {
@@ -113,27 +107,40 @@ img {
 .ms_carousel {
   background-color: #f3f5f9;
 }
-.ms_slide {
-  width: 50%;
-  margin: auto;
+.ms_slider {
+  position: relative;
 }
 .ms_slide {
-  width: 50%;
+  width: 80%;
   margin: auto;
   display: inline-block;
+}
+.ms_slider .glyphicon {
+  position: absolute;
+  top: 50%;
 }
 .ms_gliph-left {
   display: inline-block;
-  margin-left: auto;
+  left: 5%;
   font-size: 25px;
   margin-right: 15px;
 }
 .ms_gliph-right {
   display: inline-block;
-  margin-right: auto;
+  right: 5%;
   font-size: 25px;
   margin-left: 15px;
 }
+
+/* carousel team */
+.ms_carousel-team .ms_slide {
+  background-color: #FFF;
+}
+.ms_carousel-team .ms_slide img {
+  padding: 30px;
+}
+
+
 
 /* global services */
 .ms_global-services {
@@ -146,28 +153,12 @@ img {
   padding: 6px 20px;
   color: #FFF;
 }
-
 .ms_col-cx,
 .ms_col-dx {
   margin-left: -30px;
 }
 
 
-/* carousel team */
-.ms_carousel-team .ms_slider {
-  position: relative;
-}
-.ms_carousel-team .ms_slide {
-  background-color: #FFF;
-}
-.ms_carousel-team .ms_slider .glyphicon {
-  position: absolute;
-  top: 50%;
-  color: red;
-}
-.ms_carousel-team .ms_slide img {
-  /* padding: 30px; */
-}
 
 
 

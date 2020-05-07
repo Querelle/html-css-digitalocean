@@ -12,11 +12,12 @@
   <body>
     <header>
       <!-- navbar -->
-      <section class="container ms_navbar">
+      <section id="navbar" class="container ms_navbar">
         <div class="row">
           <div class="col-xs-8 col-lg-4 ms_brand">
             <img src="img/logo.png" alt="">
           </div>
+
           <!-- navigation extended -->
           <nav class="col-lg-8 visible-lg ms_nav-extended">
             <div class="row">
@@ -38,25 +39,30 @@
               </div>
             </div>
           </nav>
+
           <!-- hamburger -->
           <div class="col-xs-4 hidden-lg col-lg-8 text-right ms_hamburger">
             <span class="glyphicon glyphicon-menu-hamburger"></span>
           </div>
+
         </div>
       </section>
-      <section class="ms_welcome-access">
+
+
+      <section id="welcome" class="ms_welcome-access">
         <div class="container">
           <div class="row">
-            <div class="col-xs-12 col-md-8 col-lg-7 ms_welcome-text">
+            <div class="col-xs-12 col-md-8 col-lg-5 col-lg-offset-1 ms_welcome-text">
               <h2>The simplest cloud platform for developers & teams</h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
+                Deploy, manage, and scale cloud applications faster and more
+                efficiently on DigitalOcean. We make managing infrastructure
+                easy for teams and businesses, whether you're running one
+                virtual machine or ten thousand.
               </p>
             </div>
-            <div class="col-xs-12 col-md-4 col-lg-5 text-center ms_access-wrapper">
+
+            <div class="col-xs-12 col-md-4 col-lg-5 col-lg-offset-1 text-center ms_access-wrapper">
 
               <div class="ms_form-title">
                 <h2 class="ms_h2">Deploy your app in seconds.</h2>
@@ -83,9 +89,9 @@
 
 
     <main>
-      <section class="ms_partners-sec">
+      <section id="partners" class="ms_partners-sec">
         <div class="container">
-          <h2>Innovative qualcosa</h2>
+          <h2 class="text-uppercase ms_h2">Innovative business trust digitalocean</h2>
           <ul class="list-inline">
             <li class="ms_partner ms_xs_first-item">
               <div class="ms_thumbnail">
@@ -93,13 +99,11 @@
               </div>
             </li>
 
-
             <li class="ms_partner ms_xs_second-item">
               <div class="ms_thumbnail">
                 <img src="img/gitlab.png" alt="">
               </div>
             </li>
-
 
             <li class="ms_partner ms_xs_first-item">
               <div class="ms_thumbnail">
@@ -107,13 +111,11 @@
               </div>
             </li>
 
-
             <li class="ms_partner ms_xs_second-item">
               <div class="ms_thumbnail">
                 <img src="img/hashicorp.png" alt="">
               </div>
             </li>
-
 
             <li class="ms_partner ms_xs_first-item">
               <div class="ms_thumbnail">
@@ -121,24 +123,25 @@
               </div>
             </li>
 
-
             <li class="ms_partner ms_xs_second-item">
               <div class="ms_thumbnail">
                 <img src="img/splunk.png" alt="">
               </div>
             </li>
+
           </ul>
-
-          <p>View customer stories > </p>
-
+          <a href="#">View customer stories > </a>
         </div>
       </section>
 
-      <section class="container ms_deploy">
-        <h2>Deploy quaccheccosa</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+      <section id="deploy" class="container ms_deploy">
+        <h2 class="ms_h2 text-center">Deploy and scale seamlessly</h2>
+        <p class="text-center">
+          Out optimized configuration process saves you team time when
+          running and scaling distributed applications, AI & machine
+          learning workloads, hosted services, client websites, or CI/CD
+          enviroments.
         </p>
         <div class="row">
           <div class="col-xs-12 col-md-3 ms_deploy-wrapper">
@@ -156,7 +159,7 @@
                 <div class="ms_icon">
                   <img src="img/drop.svg" alt="">
                 </div>
-                <h3>Cluster deployments</h3>
+                <h3 class="ms_h3">Cluster deployments</h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                   sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -166,7 +169,7 @@
                 <div class="ms_icon">
                   <img src="img/dropcube.svg" alt="">
                 </div>
-                <h3>Optimized compute type</h3>
+                <h3 class="ms_h3">Optimized compute type</h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                   sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -176,7 +179,7 @@
                 <div class="ms_icon">
                   <img src="img/plus.svg" alt="">
                 </div>
-                <h3>One-click apps</h3>
+                <h3 class="ms_h3">One-click apps</h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                   sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -186,7 +189,7 @@
                 <div class="ms_icon">
                   <img src="img/globe.svg" alt="">
                 </div>
-                <h3>Global availability</h3>
+                <h3 class="ms_h3">Global availability</h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                   sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -194,15 +197,14 @@
               </div>
             </div>
           </div>
-
         </div>
       </section>
 
       <!-- carousel -->
-      <section class="ms_carousel ms_carousel-design text-center">
+      <section id="carousel-design" class="ms_carousel ms_carousel-design text-center">
         <div class="container">
-          <h2>Cip & Ciop</h2>
-          <h3>Duffy Duck!</h3>
+          <h2 class="ms_h2">Designed for developers</h2>
+          <h3 class="ms_h3">Build more and spend less time managing your infrastructure with our easy-to-use control panel and API.</h3>
 
           <div class="row">
             <div class="col-lg-8 col-lg-offset-2 ms_slider">
@@ -212,133 +214,144 @@
               </div>
               <span class="glyphicon glyphicon-chevron-right hidden-xs ms_gliph-right"></span>
             </div>
-
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Create compute servers in 55 seconds or less.
           </p>
-          <span>
+
+          <div>
             <i class="fas fa-circle"></i>
             <i class="far fa-circle"></i>
             <i class="far fa-circle"></i>
             <i class="far fa-circle"></i>
-          </span>
+          </div>
         </div>
       </section>
 
       <!-- features -->
-      <section class="container ms_features">
+      <section id="features" class="container ms_features">
         <div class="row">
           <h2 class="text-center">The features your business needs</h2>
           <div class="col-xs-12 col-md-4">
             <div class="ms_icon">
               <img src="img/file.svg" alt="">
             </div>
-            <h3>Cluster deployments</h3>
+            <h3 class="ms_h3">Cluster deployments</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Leave complex pricing structures behind.
+              Always know what you'll pay per month with a flat,
+              industry-leading pricing structure.
             </p>
             <a href="#">Pricing ></a>
           </div>
+
           <div class="col-xs-12 col-md-4">
             <div class="ms_icon">
               <img src="img/heart.svg" alt="">
             </div>
-            <h3>Cluster deployments</h3>
+            <h3 class="ms_h3">Cluster deployments</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Free round-the-clock technical support for all custumers.
+              You'll fell the love.
             </p>
             <a href="#">Support ></a>
           </div>
+
           <div class="col-xs-12 col-md-4">
             <div class="ms_icon">
               <img src="img/shield.svg" alt="">
             </div>
-            <h3>Cluster deployments</h3>
+            <h3 class="ms_h3">Cluster deployments</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              More than 100,00 developers teams worldwide trust DigitalOcean to
+              support their business with a 99.99% uptime SLA for all services.
             </p>
             <a href="#">Security ></a>
           </div>
+
         </div>
       </section>
 
 
       <!-- global services -->
-      <section class="ms_global-services">
+      <section id="global-services" class="ms_global-services">
         <div class="container">
-          <h2 class="text-center">Service your customers around the world from 12 data centers. </h2>
+          <h2 class="text-center">Service your customers around the world from 12 centers. </h2>
           <div class="row">
-            <div class="col-xs-12 col-md-6">
+            <div class="col-xs-12 col-md-5 col-md-offset-1">
               <div class="row">
-                <div class="col-xs-2 ms_col-sx">
-                  <span>FR01</span>
-                  <span>AM04</span>
-                  <span>ZG007</span>
-                  <span>CA03</span>
-                  <span>HQ09</span>
-                  <span>AN42</span>
-                </div>
-                <div class="col-xs-6 ms_col-cx">
-                  <span>Francesca</span>
-                  <span>Armando</span>
-                  <span>Zangief</span>
-                  <span>Carlo</span>
-                  <span>Hitchhiker</span>
-                  <span>Andrea</span>
-                </div>
-                <div class="col-xs-4 text-right ms_col-dx">
-                  <a href="#">Test&nbsp;Speed&nbsp;></a>
-                  <a href="#">Test&nbsp;Speed&nbsp;></a>
-                  <a href="#">Test&nbsp;Speed&nbsp;></a>
-                  <a href="#">Test&nbsp;Speed&nbsp;></a>
-                  <a href="#">Test&nbsp;Speed&nbsp;></a>
-                  <a href="#">Test&nbsp;Speed&nbsp;></a>
-                </div>
+                <div class="col-xs-2"><span>FR01</span></div>
+                <div class="col-xs-6"><span>Francesca</span></div>
+                <div class="col-xs-4 text-right"><a href="#">Test&nbsp;Speed&nbsp;></a></div>
+              </div>
+              <div class="row">
+                <div class="col-xs-2"><span>FR01</span></div>
+                <div class="col-xs-6"><span>Francesca</span></div>
+                <div class="col-xs-4 text-right"><a href="#">Test&nbsp;Speed&nbsp;></a></div>
+              </div>
+              <div class="row">
+                <div class="col-xs-2"><span>FR01</span></div>
+                <div class="col-xs-6"><span>Francesca</span></div>
+                <div class="col-xs-4 text-right"><a href="#">Test&nbsp;Speed&nbsp;></a></div>
+              </div>
+              <div class="row">
+                <div class="col-xs-2"><span>FR01</span></div>
+                <div class="col-xs-6"><span>Francesca</span></div>
+                <div class="col-xs-4 text-right"><a href="#">Test&nbsp;Speed&nbsp;></a></div>
+              </div>
+              <div class="row">
+                <div class="col-xs-2"><span>FR01</span></div>
+                <div class="col-xs-6"><span>Francesca</span></div>
+                <div class="col-xs-4 text-right"><a href="#">Test&nbsp;Speed&nbsp;></a></div>
+              </div>
+              <div class="row">
+                <div class="col-xs-2"><span>FR01</span></div>
+                <div class="col-xs-6"><span>Francesca</span></div>
+                <div class="col-xs-4 text-right"><a href="#">Test&nbsp;Speed&nbsp;></a></div>
               </div>
             </div>
-            <div class="col-xs-12 col-md-6">
+
+            <div class="col-xs-12 col-md-5 col-md-offset-1">
               <div class="row">
-                <div class="col-xs-2 ms_col-sx">
-                  <span>FR01</span>
-                  <span>AM04</span>
-                  <span>ZG007</span>
-                  <span>CA03</span>
-                  <span>HQ09</span>
-                  <span>AL42</span>
-                </div>
-                <div class="col-xs-6 ms_col-cx">
-                  <span>Francesca</span>
-                  <span>Armando</span>
-                  <span>Zangief</span>
-                  <span>Carlo</span>
-                  <span>Hitchhiker</span>
-                  <span>Andrea</span>
-                </div>
-                <div class="col-xs-4 text-right ms_col-dx">
-                  <a href="#">Test&nbsp;Speed&nbsp;></a>
-                  <a href="#">Test&nbsp;Speed&nbsp;></a>
-                  <a href="#">Test&nbsp;Speed&nbsp;></a>
-                  <a href="#">Test&nbsp;Speed&nbsp;></a>
-                  <a href="#">Test&nbsp;Speed&nbsp;></a>
-                  <a href="#">Test&nbsp;Speed&nbsp;></a>
-                </div>
+                <div class="col-xs-2"><span>FR01</span></div>
+                <div class="col-xs-6"><span>Francesca</span></div>
+                <div class="col-xs-4 text-right"><a href="#">Test&nbsp;Speed&nbsp;></a></div>
+              </div>
+              <div class="row">
+                <div class="col-xs-2"><span>FR01</span></div>
+                <div class="col-xs-6"><span>Francesca</span></div>
+                <div class="col-xs-4 text-right"><a href="#">Test&nbsp;Speed&nbsp;></a></div>
+              </div>
+              <div class="row">
+                <div class="col-xs-2"><span>FR01</span></div>
+                <div class="col-xs-6"><span>Francesca</span></div>
+                <div class="col-xs-4 text-right"><a href="#">Test&nbsp;Speed&nbsp;></a></div>
+              </div>
+              <div class="row">
+                <div class="col-xs-2"><span>FR01</span></div>
+                <div class="col-xs-6"><span>Francesca</span></div>
+                <div class="col-xs-4 text-right"><a href="#">Test&nbsp;Speed&nbsp;></a></div>
+              </div>
+              <div class="row">
+                <div class="col-xs-2"><span>FR01</span></div>
+                <div class="col-xs-6"><span>Francesca</span></div>
+                <div class="col-xs-4 text-right"><a href="#">Test&nbsp;Speed&nbsp;></a></div>
+              </div>
+              <div class="row">
+                <div class="col-xs-2"><span>FR01</span></div>
+                <div class="col-xs-6"><span>Francesca</span></div>
+                <div class="col-xs-4 text-right"><a href="#">Test&nbsp;Speed&nbsp;></a></div>
               </div>
             </div>
-          </div>
+
         </div>
       </section>
 
 
-      <section class="text-center ms_carousel ms_carousel-team">
+      <section id="carousel-team" class="text-center ms_carousel ms_carousel-team">
         <div class="container">
-          <h2>Cip & Ciop</h2>
-          <h3>Duffy Duck!</h3>
+          <h2 class="ms_h2">Developments teams love DigitalOcean</h2>
 
           <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
@@ -351,11 +364,10 @@
                     our business cost effective and efficient.”
                   </p>
                   <p>Rick O’Toole<br>Co-founder and CTO</p>
-                  <a href="#">Read story</a>
+                  <a href="#">Read story ></a>
                 </div>
                 <span class="glyphicon glyphicon-chevron-right hidden-xs ms_gliph-right"></span>
               </div>
-
             </div>
           </div>
 
@@ -367,7 +379,40 @@
         </div>
       </section>
 
-    </main>
+      <section id="get-started" class="ms_get-started">
+        <div class="text-center">
+          <h2>Get Started now</h2>
+          <button class="ms_button ms-btn-getstarted" type="button" name="button">Create your account</button>
+        </div>
+      </section>
 
+    </main>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            &nbsp;
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="row">
+              <div class="col-lg-3">
+                &nbsp;
+              </div>
+              <div class="col-lg-3">
+                &nbsp;
+              </div>
+              <div class="col-lg-3">
+                &nbsp;
+              </div>
+              <div class="col-lg-3">
+                &nbsp;
+              </div>
+          </div>
+        </div>
+      </div>
+
+    </footer>
   </body>
 </html>

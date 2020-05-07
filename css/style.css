@@ -1,6 +1,7 @@
 /* ELEMENTI */
 body {
   font-family: 'Roboto', sans-serif;
+  font-weight: 500;
 }
 section {
   padding: 50px 0;
@@ -8,9 +9,26 @@ section {
 img {
   width: 100%;
 }
+p {
+  color: #66728e;
+}
+a {
+  color: #006aff;
+}
+footer {
+  background-color: #031c4e;
+}
+
 .ms_h2,
 .ms_h3 {
   margin: 8px 0;
+  color: #031c4e;
+}
+.ms_h2 {
+  font-size: 2em;
+}
+.ms_h3 {
+  font-size: 1.3em;
 }
 .ms_button {
   display: inline-block;
@@ -54,6 +72,14 @@ img {
   border-radius: 6px;
   padding: 30px;
 }
+.ms_welcome-text h2 {
+  font-size: 3.5em;
+  color: #FFF;
+}
+.ms_welcome-text p {
+  font-size: 1.3em;
+  color: #bbccff;
+}
 .ms_form-title {
   margin-bottom: 20px;
 }
@@ -74,6 +100,10 @@ img {
 
 
 /* partners */
+.ms_partners-sec h2 {
+  font-size: 1.2em;
+  color: #6f7b97;
+}
 .ms_partners-sec {
   text-align: center;
   background-color: #f3f5f9;
@@ -88,6 +118,9 @@ img {
 
 
 /* deploy section */
+.ms_deploy > p {
+  font-size: 1.3em;
+}
 .ms_deploy-wrapper {
   padding-left: 50px;
 }
@@ -106,6 +139,12 @@ img {
 /* carousel */
 .ms_carousel {
   background-color: #f3f5f9;
+}
+.ms_carousel h3 {
+  color: #586686;
+}
+.ms_carousel p {
+  color: #031c4e;
 }
 .ms_slider {
   position: relative;
@@ -135,42 +174,54 @@ img {
 /* carousel team */
 .ms_carousel-team .ms_slide {
   background-color: #FFF;
+  padding: 50px 0;
 }
 .ms_carousel-team .ms_slide img {
-  padding: 30px;
+  width: 40%;
 }
-
+.ms_carousel-team .ms_slide p:nth-of-type(1) {
+  color: #5c6a88;
+  font-size: 1.3em;
+}
 
 
 /* global services */
 .ms_global-services {
   background: linear-gradient(#0048c5, #001e99);
+  color: #FFF;
+}
+.ms_global-services a {
+  color: #00d7d2;
+}
+.ms_global-services .col-xs-12.col-md-5.col-md-offset-1 > .row {
+  border-bottom: 1px solid #FFF;
 }
 .ms_global-services span,
 .ms_global-services a {
   display: block;
-  border-bottom: 1px solid #FFF;
   padding: 6px 20px;
-  color: #FFF;
-}
-.ms_col-cx,
-.ms_col-dx {
-  margin-left: -30px;
 }
 
 
 
-
-
-
-
-
-
-@media screen and (max-width: 450px) {
-  .ms_col-cx {
-    text-align: center;
-  }
+/* get started */
+.ms_get-started {
+  background-image: linear-gradient(#0042bb, #001e9a);
 }
+.ms-btn-getstarted {
+  background-color: #FFF;
+  padding: 8px 14px;
+  color: #0d73ff;
+}
+
+
+/* FOOTER */
+
+
+
+
+
+
 @media screen and (max-width: 767px) {
   .ms_xs_first-item,
   .ms_xs_second-item {

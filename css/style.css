@@ -135,15 +135,57 @@ img {
   margin-left: 15px;
 }
 
+/* global services */
+.ms_global-services {
+  background: linear-gradient(#0048c5, #001e99);
+}
+.ms_global-services span,
+.ms_global-services a {
+  display: block;
+  border-bottom: 1px solid #FFF;
+  padding: 6px 20px;
+  color: #FFF;
+}
+
+.ms_col-cx,
+.ms_col-dx {
+  margin-left: -30px;
+}
+
+
+/* carousel team */
+.ms_carousel-team .ms_slider {
+  position: relative;
+}
+.ms_carousel-team .ms_slide {
+  background-color: #FFF;
+  margin: 0 30px;
+}
+.ms_carousel-team .ms_slider .glyphicon {
+  position: absolute;
+  top: 50%;
+  color: red;
+}
+.ms_carousel-team .ms_slide img {
+  /* padding: 30px; */
+}
 
 
 
+
+
+
+
+@media screen and (max-width: 450px) {
+  .ms_col-cx {
+    text-align: center;
+  }
+}
 @media screen and (max-width: 767px) {
   .ms_xs_first-item,
   .ms_xs_second-item {
     width: 40%;
   }
-
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .ms_xs_first-item,

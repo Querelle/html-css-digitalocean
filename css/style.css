@@ -15,20 +15,21 @@ p {
 a {
   color: #006aff;
 }
-footer {
-  background-color: #031c4e;
-}
 
+.ms_h1,
 .ms_h2,
 .ms_h3 {
-  margin: 8px 0;
+  margin: 0;
   color: #031c4e;
 }
 .ms_h2 {
-  font-size: 2em;
+  font-size: 2.3em;
 }
 .ms_h3 {
   font-size: 1.3em;
+}
+.ms_header-space {
+  padding-bottom: 20px;
 }
 .ms_button {
   display: inline-block;
@@ -84,6 +85,15 @@ footer {
 .ms_form-title {
   margin-bottom: 20px;
 }
+.ms_form-title h2 {
+  color: #031c4e;
+}
+.ms_form-title h3 {
+  color: #006aff;
+  font-size: 2.3em;
+}
+
+
 .ms_access-wrapper .ms_button {
   width: 100%;
   margin-bottom: 10px;
@@ -117,8 +127,8 @@ footer {
   padding: 10px;
 }
 
-
 /* deploy section */
+
 .ms_deploy > p {
   font-size: 1.3em;
 }
@@ -134,6 +144,9 @@ footer {
 }
 .ms_icon {
   width: 40px;
+}
+.ms_box > * {
+  padding: 6px 0;
 }
 
 
@@ -171,6 +184,14 @@ footer {
   font-size: 25px;
   margin-left: 15px;
 }
+.container > p {
+  padding: 10px 0;
+}
+.fa-circle {
+  color: #006aff;
+  font-size: 0.8em;
+  padding: 10px 0;
+}
 
 /* carousel team */
 .ms_carousel-team .ms_slide {
@@ -193,7 +214,13 @@ footer {
 .ms_global-services a {
   color: #00d7d2;
 }
-.ms_global-services .col-xs-12.col-md-6 > .row {
+.ms_table-wrapper {
+  color: #bbc8e9;
+}
+.ms_table-wrapper .row [class*="col-"]:nth-of-type(2n+1) {
+  color: #FFF;
+}
+.ms_table-wrapper .row:nth-last-of-type(1n+2) {
   border-bottom: 1px solid #FFF;
 }
 .ms_global-services span,
@@ -222,13 +249,29 @@ footer {
 
 
 /* FOOTER */
-footer .ms_h3 {
+.ms_footer {
+  padding: 50px 0;
+  background-color: #031c4e;
+}
+.ms_footer .ms_h3 {
   color: #FFF;
 }
-footer ul li {
+.ms_footer-logo {
+  width: 50px;
+}
+.ms_footer ul li {
   margin: 0;
   padding: 3px 0;
   color: #a6adbd;
+}
+.ms_text-right {
+  padding: 10px 0;
+}
+.ms_right-reserved {
+  color: #a6adbd;
+}
+.ms_made-text {
+  color: #5a6887;
 }
 
 
@@ -240,10 +283,27 @@ footer ul li {
   .ms_xs_second-item {
     width: 40%;
   }
+  [class*="col-"] {
+    padding: 12px 15px;
+  }
+  .fa-circle {
+    padding: 40px 0;
+  }
+  .ms_table-wrapper {
+    margin: auto 15px;
+  }
 }
+
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .ms_xs_first-item,
   .ms_xs_second-item {
     width: 16%;
+  }
+  [class*="col-"] {
+    padding: 12px 15px;
+  }
+  .fa-circle {
+    padding: 20px 0;
   }
 }
